@@ -28,7 +28,7 @@ for i in range(len(data)):
     
     time.sleep(5)           # Esperar 5 segundos a que cargue
     #pg.click(1230,964)      # Hacer click en la caja de texto
-    pg.typewrite(mensaje + img)
+    pg.typewrite(mensaje)
     time.sleep(2)           # Esperar 2 segundos 
     pg.press('enter')       # Enviar mensaje 
     time.sleep(3)           # Esperar 3 segundos a que se envíe el mensaje
